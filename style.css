@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.right-menu{
+    margin-top: 10px;
+}
+.right-menu li{
+    position: relative;
+    left: 620px;
+    display: inline-block;
+    margin-top: 10px !important;
+}
+.right-menu .fa{
+    font-size: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.navbar-brand img{
+    width: 160px;
+}
+.navbar-brand{
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.header{
+    background: rgb(245, 242, 242);
+    margin-bottom: 80px;
+    
+}
+.banner-img{
+    margin: 40px 90px;
+    width: 60%;
+}
+.banner-img img{
+    width: 100%;
+    margin-bottom: -80px;
+}
+.banner{
+    position: relative;
+}
+.banner-title{
+    position: absolute;
+    /* background-color: yellow; */
+    left: 50%;
+    top: 30%;
+}
+.banner-title h1{
+    color: white;
+    background: rgb(0,0,0,0.8);
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 6px;
+}
+
+/* --------fashion-trends--------- */
+
+/* .fashion-trends-title{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 350px;
+    background-color: yellow;
+    width: 420px;
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} */
+
+.fashion-trends{
+    padding: 100px;
+}
+.fashion-box{
+    margin: 80px;
+}
+.title-style h1{
+    padding: 40px;
+}
+.title-style{
+    margin: 0 auto 80px;
+    height: 120px;
+    width: 80%;
+    max-width: 700px;
+    background: white;
+    position: relative;
+    box-shadow: 0 5px 5px 0 rgba(0,0,50,0.5);
+}
+.title-style::after{
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: rgb(205, 59, 83);
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+}
+.title-style::before{
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: rgb(205, 59, 83);
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+}
+.trending-img{
+    position: relative;
+}
+.trending-img img{
+    width: 100%;
+}
+.btn-buy{
+    padding: 10px 10px;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background-color: white;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: 0.6s;
+    opacity: 0;
+    z-index: 1;
+}
+.trending-img:hover .btn-buy{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+}
+.overlay{
+    height: 0;
+    width: 100%;
+    background: #333;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.trending-img:hover .overlay{
+    opacity: 0.5;
+    height: 100%;
+}
+
+
+.fashion-exclusive .container{
+    position: relative;
+    margin-left: 0;
+    margin-bottom: 10%;
+}
+.fashion-exclusive .container img{
+    height: 400px;
+    width: 1370px;
+}
+.fashion-ex-text{
+    position: absolute;
+    background: rgb(249, 246, 246,0.5);
+    left: 50%;
+    top: 30%;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 600px;
+    height: 200px;
+}
+.btn-sub{
+    background-color: rgb(55, 54, 54);
+    color: white;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.exclusive-img{
+    position: relative;
+    /* left: 10%;
+    top: 290%; */
+    margin-top: -28%;
+    margin-left: 110px;
+    margin-bottom: 90px;
+}
+.exclusive-img img{
+    width: 250px;
+}
+
+
+.blog-img{
+    position: relative;
+    margin-right: 50px;
+    margin-left: 60px;
+}
+.blog-img img{
+    width: 100%;
+    border-radius: 4px;
+}
+.newstyle{
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.b1g1{
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.newjew{
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#blogrow{
+    margin-top: 100px;
+}
+
+
+.fashion-box-brand{
+    margin-top: 70px;
+}
+.brand-img{
+    position: relative;
+}
+.brand-img img{
+    height: 183px;
+    width: 198px;
+    margin-left: 175px;
+    padding: 20px;
+}
+
+.footer{
+    margin-top: 80px;
+    background-color: rgb(245, 239, 239);
+    height: 400px;
+}
+.payment-options{
+    opacity: 1;
+    width: 325px;
+    margin: 60px;
+    margin-left: 330px;
+    display: inline-block;
+}
+#payment-img{
+    width: 100%;
+}
+.download-app{
+    width: 301px;
+    margin-top: -257px;
+    margin-left: 770px;
+}
